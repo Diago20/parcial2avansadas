@@ -2,6 +2,12 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="MainActivityTest">
+        <State />
+      </entry>
       <entry key="app">
         <State>
           <runningDeviceTargetSelectedWithDropDown>
@@ -15,8 +21,11 @@
               </deviceKey>
             </Target>
           </runningDeviceTargetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-06T02:03:12.084940300Z" />
+          <timeTargetWasSelectedWithDropDown value="2024-04-06T04:12:19.558066400Z" />
         </State>
+      </entry>
+      <entry key="testEnviarButtonClicked()">
+        <State />
       </entry>
     </value>
   </component>

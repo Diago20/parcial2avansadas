@@ -36,7 +36,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -45,4 +44,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation ("org.mockito:mockito-core:2.24.5")
+    androidTestImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation ("org.robolectric:robolectric:4.5.1")
 }

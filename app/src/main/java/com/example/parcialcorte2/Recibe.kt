@@ -18,6 +18,15 @@ class Recibe : AppCompatActivity() {
 
         tcRecibe = findViewById(R.id.tcRecibe)
 
+        val extras = intent.extras
+        if (extras != null){
+            val textoEnviado = extras.getString("textoEnviado")
+
+            if (!textoEnviado.isNullOrEmpty()){
+                tcRecibe.text = "Tu nombre es : $textoEnviado"
+            }
+        }
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
